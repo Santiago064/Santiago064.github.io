@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Santiago Murillo Lemus">
+    <link rel="stylesheet" type="text/css" href="Conctatenos.css">
+    <title>Conctatenos</title>
+</head>
+<body>
+    <center><h1><strong>Formulario de contacto</strong></h1></center>
+    <form>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label><strong> Tipo de Identificacion</strong></label>
+                <select name="Identificacion" id="Identificacion" required>
+                <option value="">Seleccione</option>
+                <option value="REGISTRO CIVIL">REGISTRO CIVIL</option>
+                <option value="TARJETA DE IDENTIDAD">TARJETA DE IDENTIDAD</option>
+                <option value="CEDULA DE CIUDADANIA">CEDULA DE CIUDADANIA</option>
+                <option value="PASAPORTE">PASAPORTE</option>
+                <option value="CEDULA DE EXTRANJERIA">CEDULA DE EXTRANJERIA</option>
+                <option value="OTRO">OTRO</option>
+            </select>
+            <br><br>
+            <label>N° de Identificacion:      </label>&nbsp;
+            <input type="text" id="Identificacion" name="Identificacion" required
+            placeholder="Digite el numero...." minlength="1" maxlength="11"
+            size="24">
+            <br><br>
+            <label>Nombres:</label>&nbsp;
+            <input type="text" id="NOMBRES" name="NOMBRES" required
+            placeholder="Digite el nombre...." minlength="1" maxlength="10"
+            size="24">
+            <br><br>
+            <label>Apellidos:     </label>
+            <input type="text" id="APELLIDOS" name="APELLIDOS" required
+            placeholder="Digite los apellidos..." minlength="1" maxlength="18"
+            size="24"><br><br>
+            <label>Fecha Nacimiento: </label>
+            <input type="date" id="fechanacimiento"
+            name="fechanacimiento" step="1" min="1900-01-01" max="2022-
+            12-31" required>
+            <br><br>
+            <label>N° de Celular:      </label>&nbsp;
+            <input type="text" id="Celular" name="Celular" required
+            placeholder="+57*********" minlength="1" maxlength="10"
+            size="24"><br><br>
+            <label>N° de Telefono:      </label>&nbsp;
+            <input type="text" id="Telefono" name="Telefono" required
+            placeholder="604********" minlength="1" maxlength="10"
+            size="24"><br><br>
+            <label>Direccion:     </label>
+            <input type="text" id="DIRECCION" name="DIRECCION" required
+            placeholder="Calle y número; Ciudad/Pueblo; Código postal; y País" minlength="1" maxlength="50"
+            size="50"><br><br>
+            <label>Email: </label>
+            <input type="email" id="email" name="email" required
+            placeholder="email@email.com">
+            <br><br>
+            <strong><label>Genero:      </label></strong> <br>
+            <input type="Radio" name="Genero" id="Masculino" checked>Masculino <br>
+            <input type="Radio" name="Genero" id="Femenino">Femenino <br><br>
+           
+        <fieldset>
+        <legend>Botones de Accion</legend>
+            <input type="submit" value="EnviarDatos" id="EnviarDatos" name="EnviarDatos">
+            <input type="reset" value="RestablecerDatos" id="RestablecerDatos" name="RestablecerDatos">
+            <input type="hidden" value="admon" id="tipoU">
+        </fieldset>
+    </form>
+
+    <div id="footer">
+        <footer>
+         
+               <p><table class="pie"><tr>
+               <th class="colm1"><h2>Disfruta la aplicacion</h2>
+                <a class="a" href="https://apps.apple.com/co/app/frisby/id1087849485"> <img src="https://frisby.com.co/img/apple.svg" alt="frisby" width="80" height="50"></a>
+                <a class="b" href="https://play.google.com/store/apps/details?id=com.frisby.frisby"><img src="https://frisby.com.co/img/android.svg" alt="frisby" width="80" height="50"></a>
+                <a class="c" href="https://appgallery.huawei.com/#/app/C101172131"><img src="https://frisby.com.co/img/huawei.svg" alt="frisby" width="80" height="50"></a><br><br>
+                <a href="https://frisby.com.co/terminosycondiciones">Politica de privacidad y uso de este sitio web</a>
+                <a href="https://frisby.com.co/tratamientodatos">Politica de tratamiento de datos personales</a>
+                <p class="DerechoA">Derecho de autor santiago Murillo Lemus®</p></th>
+            </p>
+            <th class="nada"></th>
+            <th>   </th>
+            <th>   </th>
+            <th class="colm2"><h2> Numero de domicilio y servicio al cliente </h2>
+                <p class="pi">
+                    <ul>
+                    <a href="+574049030">Bogota 404 90 30</a><br><br>
+                    <a href="+573609000">Medellin 360 90 00</a><br><br>
+                    <a href="+576442424">Cali 6442424</a><br><br>
+                    <a href="+573015555555">Desde celular 3015555555</a><br><br>
+                    <Strong>Email:</Strong> Frisbycomunica@gmail.com<br><br>
+                    <strong>Horarios:</strong> Lunes a lunes 9:00-11:00
+                   </ul></p><br></th>
+            </div></tr></table>
+         
+          
+               
+          
+        </footer>
+    </div>
+    
+</body>
+</html>

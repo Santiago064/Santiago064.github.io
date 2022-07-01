@@ -1,0 +1,104 @@
+body{
+background-color: #6a8892;
+}
+
+img{
+width: 120px; ;
+height: 280px ;
+}
+
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+h1{
+    text-align: center;
+    background-color: #F2CB05;
+}
+h2{
+    text-align: left;
+ 
+}
+
+
+
+
+
+footer {
+    text-align: auto;
+    background-color: #6a8892;
+    position: static;
+    width: 100%;
+    color: rgb(0, 0, 0);
+  }
+.a,.b,.c{
+    text-align: left;
+    color: black;
+}
+
+
+p.DerechoA{
+    text-align: center;
+    color: black;
+}
+
+table.pie, th.colm1, th.colm2, th.nada{
+   background-color: #6a8892;
+    font-style: padding 50px;
+    text-align: auto;
+    border-color: #6a8892;
+    color: black;
+    
+}
+
+p.pi{
+    text-align: left;
+    color: black;
+}
+
+
+a{
+    color: rgb(0, 0, 0);
+    padding: 14px 25px;
+    text-decoration: solid;
+    display: inline;
+}
+
+a:hover, a:active {
+    background-color: #F2CB05;
+}
+
+
+
